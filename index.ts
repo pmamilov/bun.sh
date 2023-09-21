@@ -1,5 +1,5 @@
 const server = Bun.serve({
-    port: 3003,
+    port: 3005,
     fetch(request) {
       return new Response("Welcome to Buns!");
     },
